@@ -47,7 +47,6 @@ public class StartApplication {
 
         SpringApplication app = new SpringApplication(StartApplication.class);
         app.setBannerMode(Banner.Mode.OFF);
-        app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
 
     }
